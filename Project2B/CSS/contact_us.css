@@ -1,0 +1,21 @@
+    .point h3 {
+      margin-left: 2%;
+    }
+
+    .product-content ul li {
+      padding:0px;
+    }
+
+    .product-content ul li h3 {
+      color: #000000;
+    }
+
+
+    .product-content ul li table {
+      margin-top: -15px;
+    }
+
+    .left-row {
+      vertical-align: top;
+      text-align: right;
+    }

@@ -1,0 +1,49 @@
+
+.filter-wrapper{
+    height: auto;
+    float: left;
+}
+
+.content-filter{
+    height: 100%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.filter{
+    height: 500px;
+    width: 200px;
+    background:#ffffff;
+    border:1px solid #AAA;
+    border-bottom: 3px solid #BBB;
+    padding: 0px;
+    margin: 5px;
+    margin-left: 20px;
+}
+    
+.filter h3 {
+    background-color: #c9e8f9;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 20px;
+    text-shadow:#83C526 0.5px 0 0,#83C526 0 0.5px 0,#83C526 -0.5px 0 0,#83C526 0 -0.5px 0;
+}
+
+.filter ul li{
+    list-style: none;
+    padding: 5px;
+    display: block;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
