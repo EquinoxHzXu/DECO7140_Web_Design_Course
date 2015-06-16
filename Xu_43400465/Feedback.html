@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'/>
+  <title> FEEDBACK - KIBOKO </title>
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+  <link href="css/Detail_Style.css" type="text/css" rel="stylesheet" />
+  <style type="text/css">
+    table tr #select {
+      margin-top: 10px;
+    }
+
+    table tr th .title {
+      width: 600px;
+      margin-top: 10px;
+    }
+    
+    table tr th .content {
+      width: 700px;
+      height: 200px;
+    }
+
+    table tr th #submit {
+      margin-left: 60%;
+      margin-top: 20px;
+    }
+
+    table tr th #clear {
+      margin-left: 5%;
+    }
+
+    th {
+      padding-bottom: 6px;
+    }
+
+    #rating {
+      float: left;
+      margin-top: 10px;
+      margin-left: 9%;
+      border-width: 2px;
+      border-style: solid;
+      width: 330px;
+      background: #FFFD91;
+      padding-left: 20px;
+    }
+
+    #rating tr th{
+      padding-top: 20px;
+      text-align: left;
+      font-family: "Source Sans Pro","Times New Roman";
+    }
+
+    #rating tr th #rate_title {
+      font-size: 20px;
+      color: #A5ED53;
+    }
+
+    footer {
+      margin-top: 360px;
+    }
+  </style>
+  <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="js/js.js"></script>
+  </head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>KIBOKO</h1>
+      <p>Follow us:</p>
+      <img class="main" src="images/img011-1.jpg">
+      <ul id="social_media">
+        <li><img src="images/Facebook-icon.png"></li>
+        <li><img src="images/Twitter-icon.png"></li>
+        <li><img src="images/RSS-icon.png"></li>
+      </ul>   
+  </header>
+
+  <!-- Global Navigation -->
+  <div id="glo_nav">
+      <ul id="nav">
+          <li class="on"><a href="index.html">HOME</a></li>
+          <li><a href="#">TOURS</a>
+              <div class="second">
+                <ul>
+                    <li><a href="Lion_Tours.html">LION TOURS</a></li>
+                    <li><a href="Zebra_Tours.html">ZEBRA TOURS</a></li>
+                    <li><a href="Giraffe_Tours.html">GIAFFE TOURS</a></li>
+                </ul>
+              </div>
+          </li>
+          <li><a href="#">HONEYMOON SPECIAL</a>
+              <div class="second">
+                <ul id="hm">
+                    <li><a href="South_Africa.html">SOUTH AFIRCA</a></li>
+                    <li><a href="Kenya.html">KENYA</a></li>
+                </ul>
+              </div>
+          </li>
+          <li id="booking"><a href="Booking_and_Discussion.html">BOOKING AND DISCUSSION</a></li>
+          <li><a href="About_us.html">ABOUT US</a></li>
+      </ul>
+      <div id="slide"></div>
+  </div>
+  
+  <!-- Main Content -->
+  <table id="rating">
+    <tr>
+      <th>
+        <p id="rate_title">Rate</p>
+        <br/><br/>
+        <p class="starWrapper" onmouseover="rate(this,event)">
+          Accommodation:        
+            <img src="images/star.gif" title="1" />
+            <img src="images/star.gif" title="2" />
+            <img src="images/star.gif" title="3" />
+            <img src="images/star.gif" title="4" />
+            <img src="images/star.gif" title="5" /> 
+        </p>
+        <br/><br/>
+        <p class="starWrapper" onmouseover="rate(this,event)">
+          Meal:         
+            <img src="images/star.gif" title="1" />
+            <img src="images/star.gif" title="2" />
+            <img src="images/star.gif" title="3" />
+            <img src="images/star.gif" title="4" />
+            <img src="images/star.gif" title="5" /> 
+        </p>
+        <br/><br/>
+        <p class="starWrapper" onmouseover="rate(this,event)">
+          Scenery:           
+            <img src="images/star.gif" title="1" />
+            <img src="images/star.gif" title="2" />
+            <img src="images/star.gif" title="3" />
+            <img src="images/star.gif" title="4" />
+            <img src="images/star.gif" title="5" /> 
+        </p>
+        <br/><br/>
+        <p class="starWrapper" onmouseover="rate(this,event)">
+          Transportation:          
+            <img src="images/star.gif" title="1" />
+            <img src="images/star.gif" title="2" />
+            <img src="images/star.gif" title="3" />
+            <img src="images/star.gif" title="4" />
+            <img src="images/star.gif" title="5" /> 
+        </p>
+        <br/><br/>
+      </th>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th>
+        <form>
+          <select id="select" name="Tours_type">
+            <option value="Lion_Tours">Lion Tours</option>
+            <option value="Zebra_Tours">Zebra Tours</option>
+            <option value="Giraffe_Tours">Giraffe Tours</option>
+            <option value="South_Afirca">South Afirca</option>
+            <option value="Kenya">Kenya</option>
+          </select>
+        </form>    
+      </th>
+      <th>
+        <form action="Feedback.html" name="form" method="post">
+          <input class="title" id="text" type="text" name="title">
+        </form>
+      </th>
+    </tr>
+    <tr>
+      <th colspan="2">
+        <form action="Feedback.html" name="form" method="post">
+          <input class="content" id="text" type="text" name="text"/>
+          <input id="submit" type="submit" value="Submit"/>
+        </form>
+      </th>
+    </tr>
+  </table>
+  
+  
+
+
+
+  <!-- Footer -->
+  <footer>
+    <table>
+      <tr>
+        <th><a href="index.html">HOME</a></th>
+        <th>TOURS</th>
+        <th>HONEYMOON SPECIAL</th>
+        <th><a href="Booking_and_Discussion.html">BOOKING AND DISCUSSION</a></th>
+        <th><a href="About_us.html">ABOUT US</a></th>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="Lion_Tours.html">LION TOURS</a></td>
+        <td><a href="South_Africa.html">SOUTH AFIRCA</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="Zebra_Tours.html">ZEBRA TOURS</a></td>
+        <td><a href="Kenya.html">KENYA</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="Giraffe_Tours.html">GIAFFE TOURS</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </footer>
+
+</body>
+
+</html>

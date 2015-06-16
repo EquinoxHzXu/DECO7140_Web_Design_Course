@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+body {
+	 height:1300px;
+}
+
+#booking_nav {
+	margin-left: 9%;
+	width: 200px;
+	border-style: solid;
+	border-width: 2px;
+	background: #FFFD91;  
+	margin-top: 10px;
+}
+
+#booking_nav tr {
+	height: 50px;
+}
+
+.first_level{
+	text-align: center;
+	font-family: "Source Sans Pro", "Times New Roman";
+	font-size: 20px;
+	background: #FF7268;
+}
+
+.second_level{
+	text-align: right;
+	font-size: 16px;
+	font-family: "Times New Roman";
+}
+
+.second_level a {
+	text-decoration:none;
+	color: #41BCA4;
+}
+
+#booking_content {
+    float: right;
+    margin-right: 9%;
+    margin-top: -370px;
+    border-width: 2px;
+    border-style: solid;
+    width: 900px;
+    background: #FFFD91;
+    font-family:  "Source Sans Pro", "Times New Roman";
+}
+
+#booking_content #link {
+	line-height: 50px;
+	text-align: center;
+}
+
+#booking_content #link a {
+	text-decoration: none;
+	color: #41BCA4;
+	font-size: 20px;
+	border-bottom: 1px solid;
+}
+
+#booking_content #content th {
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-bottom: 2%;
+   }
+#booking_content .second_row {
+	margin-left: 5%;
+}
+
+#booking_content .second_row p {
+	text-align: left;
+}
+
+#booking_content .second_row #rate {
+	font-size: 20px;
+	color: #A5ED53;
+}
+
+#booking_content .right {
+	text-align: right;
+}
+
+#booking_content .left {
+	text-align: left;
+}
+
+#comments {
+	float: right;
+    margin-right: 9%;
+    margin-top: 20px;
+    border-width: 2px;
+    border-style: solid;
+    width: 900px;
+    background: #FFFD91;
+    font-family:  "Source Sans Pro", "Times New Roman";
+    overflow: scroll;
+}
+
+#comments #feedback th {
+	border-bottom: 1px solid;
+	padding: 10px;
+}
+
+#comments #comments_content th {
+	padding-top: 0px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#comments #comments_content #left {
+	width: 150px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+#comments #comments_content #right {
+	width: 200px;
+	padding-top: 20px;
+}
+
+#comments #comments_content #right #rate {
+	font-size: 20px;
+	color: #A5ED53;
+}
+
+footer {
+	margin-top: 500px;
+	position: absolute;
+}
+
+footer table {
+      margin-left:9%;
+      margin-top: 10px;
+}

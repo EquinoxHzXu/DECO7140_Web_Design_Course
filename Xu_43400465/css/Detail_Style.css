@@ -1,0 +1,44 @@
+    table {
+      float: right;
+      margin-right: 9%;
+      margin-top: 10px;
+      border-width: 2px;
+      border-style: solid;
+      width: 700px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 24pt;
+      color: #FF7268;
+      font-family:"Source Sans Pro","Times New Roman"; 
+    }
+
+    .gallery {
+      width: 400px;
+      height: 300px;
+      margin-top: 10px;
+      margin-left: 9%;
+      border-width: 1px;
+      border-style: solid;
+    }
+
+    th {
+      padding-bottom: 10px;
+    }
+
+    tr p {
+      font-family:"Source Sans Pro","Times New Roman"; 
+      font-size: 12pt;
+    }
+
+    footer table {
+      background: #FFD353;
+    }
+
+    footer table tr th a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+
